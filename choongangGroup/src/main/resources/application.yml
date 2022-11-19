@@ -3,7 +3,9 @@ server:
 
 # Oracle Connect
 spring:
-
+  devtools: 
+    livereload:
+      enabled: true
   # File Size
   servlet:
     multipart:

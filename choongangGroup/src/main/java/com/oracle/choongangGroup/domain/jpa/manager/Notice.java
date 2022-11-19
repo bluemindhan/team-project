@@ -34,7 +34,7 @@ public class Notice {
 		@Column(name = "notice_num")
 		private Notice notice;
 		@Id
-		@ManyToOne
+		@ManyToOne 
 		@JoinColumn(name = "userid")
 		private Member member;
 
